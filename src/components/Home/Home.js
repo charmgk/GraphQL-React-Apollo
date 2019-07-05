@@ -4,7 +4,7 @@ import React from 'react'
 import Jumbotron from '../Jumbotron/Jumbotron'
 
 // Search Custom Container
-import Search from '../Search/SearchTrial'
+import Search from '../Search/SearchFetch'
 
 const Home = () => {
   return (

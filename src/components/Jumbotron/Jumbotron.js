@@ -10,9 +10,9 @@ import './Jumbotron.css'
 const Jumbo = () => (
   <Container fluid>
     <Jumbotron className='mt-2 jumbo'>
-    <h1>STAR WARS!</h1>
+      <h1>STAR WARS API PLAYGROUND!</h1>
       <p>
-        This is the Star Wars API search tool. Search the starwars movies by their titles as you type
+        This is the Star Wars API search tool. Search the starwars movies and Characters by their titles and/or Names. Happens behind the scenes as you type
         </p>
     </Jumbotron>
   </Container>

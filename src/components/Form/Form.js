@@ -14,7 +14,7 @@ export default (props) => {
         <Container className="text-center width mb-3">
             <Form>
                 <Form.Group controlId="text">
-                    <Form.Label>Search the API by Title</Form.Label>
+                    <Form.Label>Search by Title/Character Name</Form.Label>
                     <Form.Control type="text" placeholder="Enter search term" onChange={handleChange} />
                 </Form.Group>
             </Form>

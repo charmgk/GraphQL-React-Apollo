@@ -71,8 +71,6 @@ export default class searchComponent extends Component {
                 })
         } else {
             this.setState({ Loading: false, AllApiResults: null });
-
-            setTimeout(() => { this.setState({ Loading: false, AllApiResults: null }); }, 2000)
         }
     }
 
