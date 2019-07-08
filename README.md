@@ -1,1 +1,1 @@
-# consuming multiple starwars REST API endpoints with both Fetch and Apollo
+# consuming starwars GraphQL API with both Apollo
