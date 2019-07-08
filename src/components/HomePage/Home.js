@@ -1,16 +1,16 @@
 import React from 'react'
 
 // Bootstrap component
-import Jumbotron from '../Jumbotron/Jumbotron'
+import Banner from './Banner/Banner'
 
 // Search Custom Container
-import Search from '../Search/SearchFetch'
+import SearchForm from './SearchForm/SearchForm'
 
 const Home = () => {
   return (
     <div>
-      <Jumbotron />
-      <Search />
+      <Banner />
+      <SearchForm />
     </div>
   )
 }

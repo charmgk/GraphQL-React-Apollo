@@ -4,10 +4,10 @@ import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 // Components
-import Navigation from './Navigation/Navigation'
-import Home from './Home/Home'
-import About from './About/About'
-import NoMatch from './NoPageHit/NoPageHit'
+import Navigation from './NavigationBar/Navigation'
+import Home from './HomePage/Home'
+import About from './AboutPage/About'
+import NoMatch from './404Error/404Error'
 
 const Routes = () => {
     return (
